@@ -531,11 +531,29 @@ function App() {
             <p>Tel: (123) 456-7890</p>
           </div>
           <div className="footer-section">
-            <h4>Síguenos</h4>
+            <h4>{t('followUs')}</h4>
             <div className="social-links">
-              <a href="#">Facebook</a>
-              <a href="#">Instagram</a>
-              <a href="#">Twitter</a>
+              <a 
+                href="https://facebook.com/smartwatchpro" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Facebook
+              </a>
+              <a 
+                href="https://instagram.com/smartwatchpro" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
+              <a 
+                href="https://twitter.com/smartwatchpro" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
             </div>
           </div>
         </div>
